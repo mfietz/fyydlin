@@ -18,3 +18,7 @@ dependencies {
     compile 'com.squareup.retrofit2:converter-moshi:2.1.0'
     testCompile 'junit:junit:4.12'
 }
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '3.1'
+}
