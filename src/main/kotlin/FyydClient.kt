@@ -9,7 +9,7 @@ import retrofit2.converter.moshi.MoshiConverterFactory
 import rx.Single
 import java.util.*
 
-class FyydClient(
+class FyydClient @JvmOverloads constructor(
     client: OkHttpClient = defaultClient,
     baseUrl: String = defaultBaseUrl
 ) {
@@ -18,6 +18,9 @@ class FyydClient(
         private val defaultClient by lazy { OkHttpClient() }
         private val defaultBaseUrl = "https://api.fyyd.de"
     }
+
+    constructor(baseUrl: String) : this(client = defaultClient, baseUrl = baseUrl)
+
     val service: FyydService
 
     init {
