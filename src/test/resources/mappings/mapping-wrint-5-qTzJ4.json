@@ -1,0 +1,26 @@
+{
+  "id" : "3eaeaa0f-dfbe-3f36-bd31-0fbc5e3e282a",
+  "uuid" : "3eaeaa0f-dfbe-3f36-bd31-0fbc5e3e282a",
+  "request" : {
+    "url" : "/search-pdc/wrint/5",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-wrint-5-qTzJ4.txt",
+    "headers" : {
+      "Date" : "Sun, 23 Oct 2016 19:08:59 GMT",
+      "Server" : "Apache/2.4.10 (Debian)",
+      "X-Content-Type-Options" : "nosniff",
+      "X-Frame-Options" : "SAMEORIGIN",
+      "X-Powered-By" : "Fat-Free Framework",
+      "X-XSS-Protection" : "1; mode=block",
+      "Cache-Control" : "no-cache, no-store, must-revalidate, max-age=1209600",
+      "Vary" : "Accept-Encoding,User-Agent",
+      "Expires" : "Sun, 06 Nov 2016 19:08:59 GMT",
+      "Keep-Alive" : "timeout=5, max=99",
+      "Connection" : "Keep-Alive",
+      "Content-Type" : "text/html; charset=UTF-8"
+    }
+  }
+}

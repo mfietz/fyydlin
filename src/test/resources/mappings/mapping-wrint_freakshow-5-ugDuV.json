@@ -1,0 +1,26 @@
+{
+  "id" : "e8f99597-4d4a-30e0-9099-5908948848b0",
+  "uuid" : "e8f99597-4d4a-30e0-9099-5908948848b0",
+  "request" : {
+    "url" : "/search-pdc/wrint,freakshow/5",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-wrint_freakshow-5-ugDuV.txt",
+    "headers" : {
+      "Date" : "Sun, 23 Oct 2016 19:08:59 GMT",
+      "Server" : "Apache/2.4.10 (Debian)",
+      "X-Content-Type-Options" : "nosniff",
+      "X-Frame-Options" : "SAMEORIGIN",
+      "X-Powered-By" : "Fat-Free Framework",
+      "X-XSS-Protection" : "1; mode=block",
+      "Cache-Control" : "no-cache, no-store, must-revalidate, max-age=1209600",
+      "Vary" : "Accept-Encoding,User-Agent",
+      "Expires" : "Sun, 06 Nov 2016 19:08:59 GMT",
+      "Keep-Alive" : "timeout=5, max=97",
+      "Connection" : "Keep-Alive",
+      "Content-Type" : "text/html; charset=UTF-8"
+    }
+  }
+}

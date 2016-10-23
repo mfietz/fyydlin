@@ -1,0 +1,26 @@
+{
+  "id" : "0202217a-8515-328d-a668-61ec9896811d",
+  "uuid" : "0202217a-8515-328d-a668-61ec9896811d",
+  "request" : {
+    "url" : "/search-pdc/wrint,freakshow",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-search-pdc-wrint_freakshow-gwJuA.txt",
+    "headers" : {
+      "Date" : "Sun, 23 Oct 2016 19:08:59 GMT",
+      "Server" : "Apache/2.4.10 (Debian)",
+      "X-Content-Type-Options" : "nosniff",
+      "X-Frame-Options" : "SAMEORIGIN",
+      "X-Powered-By" : "Fat-Free Framework",
+      "X-XSS-Protection" : "1; mode=block",
+      "Cache-Control" : "no-cache, no-store, must-revalidate, max-age=1209600",
+      "Vary" : "Accept-Encoding,User-Agent",
+      "Expires" : "Sun, 06 Nov 2016 19:08:59 GMT",
+      "Keep-Alive" : "timeout=5, max=98",
+      "Connection" : "Keep-Alive",
+      "Content-Type" : "text/html; charset=UTF-8"
+    }
+  }
+}

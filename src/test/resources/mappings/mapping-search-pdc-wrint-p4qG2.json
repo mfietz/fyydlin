@@ -1,0 +1,26 @@
+{
+  "id" : "ec808e86-917b-3aef-8347-07f8a111a2ad",
+  "uuid" : "ec808e86-917b-3aef-8347-07f8a111a2ad",
+  "request" : {
+    "url" : "/search-pdc/wrint",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-search-pdc-wrint-p4qG2.txt",
+    "headers" : {
+      "Date" : "Sun, 23 Oct 2016 19:08:58 GMT",
+      "Server" : "Apache/2.4.10 (Debian)",
+      "X-Content-Type-Options" : "nosniff",
+      "X-Frame-Options" : "SAMEORIGIN",
+      "X-Powered-By" : "Fat-Free Framework",
+      "X-XSS-Protection" : "1; mode=block",
+      "Cache-Control" : "no-cache, no-store, must-revalidate, max-age=1209600",
+      "Vary" : "Accept-Encoding,User-Agent",
+      "Expires" : "Sun, 06 Nov 2016 19:08:58 GMT",
+      "Keep-Alive" : "timeout=5, max=100",
+      "Connection" : "Keep-Alive",
+      "Content-Type" : "text/html; charset=UTF-8"
+    }
+  }
+}
