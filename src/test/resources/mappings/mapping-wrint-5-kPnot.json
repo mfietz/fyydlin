@@ -1,15 +1,15 @@
 {
-  "id" : "3eaeaa0f-dfbe-3f36-bd31-0fbc5e3e282a",
-  "uuid" : "3eaeaa0f-dfbe-3f36-bd31-0fbc5e3e282a",
+  "id" : "e129280d-db16-3527-9e10-f24ff7baf167",
+  "uuid" : "e129280d-db16-3527-9e10-f24ff7baf167",
   "request" : {
     "url" : "/search-pdc/wrint/5",
     "method" : "GET"
   },
   "response" : {
     "status" : 200,
-    "bodyFileName" : "body-wrint-5-qTzJ4.txt",
+    "bodyFileName" : "body-wrint-5-kPnot.txt",
     "headers" : {
-      "Date" : "Sun, 23 Oct 2016 19:08:59 GMT",
+      "Date" : "Sun, 23 Oct 2016 19:40:43 GMT",
       "Server" : "Apache/2.4.10 (Debian)",
       "X-Content-Type-Options" : "nosniff",
       "X-Frame-Options" : "SAMEORIGIN",
@@ -17,7 +17,7 @@
       "X-XSS-Protection" : "1; mode=block",
       "Cache-Control" : "no-cache, no-store, must-revalidate, max-age=1209600",
       "Vary" : "Accept-Encoding,User-Agent",
-      "Expires" : "Sun, 06 Nov 2016 19:08:59 GMT",
+      "Expires" : "Sun, 06 Nov 2016 19:40:43 GMT",
       "Keep-Alive" : "timeout=5, max=99",
       "Connection" : "Keep-Alive",
       "Content-Type" : "text/html; charset=UTF-8"

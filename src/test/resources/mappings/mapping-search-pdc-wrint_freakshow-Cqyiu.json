@@ -1,15 +1,15 @@
 {
-  "id" : "e8f99597-4d4a-30e0-9099-5908948848b0",
-  "uuid" : "e8f99597-4d4a-30e0-9099-5908948848b0",
+  "id" : "1f7ef14d-330d-3cc1-9c55-862dba8960bc",
+  "uuid" : "1f7ef14d-330d-3cc1-9c55-862dba8960bc",
   "request" : {
-    "url" : "/search-pdc/wrint,freakshow/5",
+    "url" : "/search-pdc/wrint,freakshow",
     "method" : "GET"
   },
   "response" : {
     "status" : 200,
-    "bodyFileName" : "body-wrint_freakshow-5-ugDuV.txt",
+    "bodyFileName" : "body-search-pdc-wrint_freakshow-Cqyiu.txt",
     "headers" : {
-      "Date" : "Sun, 23 Oct 2016 19:08:59 GMT",
+      "Date" : "Sun, 23 Oct 2016 19:40:44 GMT",
       "Server" : "Apache/2.4.10 (Debian)",
       "X-Content-Type-Options" : "nosniff",
       "X-Frame-Options" : "SAMEORIGIN",
@@ -17,8 +17,8 @@
       "X-XSS-Protection" : "1; mode=block",
       "Cache-Control" : "no-cache, no-store, must-revalidate, max-age=1209600",
       "Vary" : "Accept-Encoding,User-Agent",
-      "Expires" : "Sun, 06 Nov 2016 19:08:59 GMT",
-      "Keep-Alive" : "timeout=5, max=97",
+      "Expires" : "Sun, 06 Nov 2016 19:40:44 GMT",
+      "Keep-Alive" : "timeout=5, max=98",
       "Connection" : "Keep-Alive",
       "Content-Type" : "text/html; charset=UTF-8"
     }
