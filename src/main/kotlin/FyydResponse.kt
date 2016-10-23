@@ -21,5 +21,5 @@ data class SearchHit(
     val categories: List<List<String>>,
     val author: String,
     @Json(name = "lastpubdate") val lastPubDate: Date,
-    @Json(name = "count_episodes") val countEpisodes: String
+    @Json(name = "count_episodes") val countEpisodes: Int
 )
