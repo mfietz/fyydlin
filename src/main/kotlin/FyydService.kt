@@ -7,10 +7,10 @@ import rx.Single
 interface FyydService {
 
     @GET("/search-pdc/{query}")
-    fun findPodcast(@Path("query") query: String): Single<FyydResponse>
+    fun searchPodcasts(@Path("query") query: String): Single<FyydResponse>
 
     @GET("/search-pdc/{query}/{limit}")
-    fun findPodcast(@Path("query") query: String,
+    fun searchPodcasts(@Path("query") query: String,
                     @Path("limit") limit: String): Single<FyydResponse>
 
 }

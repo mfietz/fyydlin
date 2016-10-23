@@ -36,12 +36,12 @@ class FyydClient @JvmOverloads constructor(
         service = retrofit.create(FyydService::class.java)
     }
 
-    fun findPodcasts(vararg query: String): Single<FyydResponse> {
-        return service.findPodcast(query.joinToString(separator = ","))
+    fun searchPodcasts(vararg query: String): Single<FyydResponse> {
+        return service.searchPodcasts(query.joinToString(separator = ","))
     }
 
-    fun findPodcasts(vararg query: String, limit: Int): Single<FyydResponse> {
-        return service.findPodcast(query.joinToString(separator = ","), limit.toString())
+    fun searchPodcasts(vararg query: String, limit: Int): Single<FyydResponse> {
+        return service.searchPodcasts(query.joinToString(separator = ","), limit.toString())
     }
 
 }
