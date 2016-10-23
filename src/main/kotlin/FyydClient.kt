@@ -10,10 +10,14 @@ import rx.Single
 import java.util.*
 
 class FyydClient(
-    baseUrl: String = "https://api.fyyd.de",
-    client: OkHttpClient = OkHttpClient()
+    client: OkHttpClient = defaultClient,
+    baseUrl: String = defaultBaseUrl
 ) {
 
+    companion object FyydClientDefaults {
+        private val defaultClient by lazy { OkHttpClient() }
+        private val defaultBaseUrl = "https://api.fyyd.de"
+    }
     val service: FyydService
 
     init {
