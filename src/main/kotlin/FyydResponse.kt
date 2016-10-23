@@ -18,7 +18,7 @@ data class SearchHit(
     @Json(name = "img_url") val imageUrl: String,
     val description: String,
     val subtitle: String,
-    val categories: List<List<String>>,
+    val categories: Map<Int,Map<Int,String>>,
     val author: String,
     @Json(name = "lastpubdate") val lastPubDate: Date,
     @Json(name = "count_episodes") val countEpisodes: Int
