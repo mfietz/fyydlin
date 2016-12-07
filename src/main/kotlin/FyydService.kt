@@ -12,11 +12,7 @@ interface FyydService {
 
     @GET("/search-pdc/{query}/{limit}")
     fun searchPodcasts(@Path("query") query: String,
-                       @Path("limit") limit: String): Single<FyydResponse>
-
-    @GET("/search-pdc/{query}/{limit}")
-    fun searchPodcasts(@Path("query") query: String,
-                       @Path("limit") limit: String,
-                       @Header("Accept-Language") language: String): Single<FyydResponse>
+                       @Path("limit") limit: Int,
+                       @Header("Accept-Language") language: String?): Single<FyydResponse>
 
 }

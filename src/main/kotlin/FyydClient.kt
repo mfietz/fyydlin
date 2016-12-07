@@ -40,12 +40,8 @@ class FyydClient @JvmOverloads constructor(
         return service.searchPodcasts(query.joinToString(separator = ","))
     }
 
-    fun searchPodcasts(vararg query: String, limit: Int): Single<FyydResponse> {
-        return service.searchPodcasts(query.joinToString(separator = ","), limit.toString())
-    }
-
-    fun searchPodcasts(vararg query: String, limit: Int, language: String): Single<FyydResponse> {
-        return service.searchPodcasts(query.joinToString(separator = ","), limit.toString(), language)
+    fun searchPodcasts(vararg query: String, limit: Int, language: String? = null): Single<FyydResponse> {
+        return service.searchPodcasts(query.joinToString(separator = ","), limit, language)
     }
 
 }
