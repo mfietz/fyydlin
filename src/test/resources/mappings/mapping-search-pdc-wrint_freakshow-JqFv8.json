@@ -1,24 +1,25 @@
 {
-  "id" : "e129280d-db16-3527-9e10-f24ff7baf167",
-  "uuid" : "e129280d-db16-3527-9e10-f24ff7baf167",
+  "id" : "e59b0bde-b6bf-3e91-805e-35c5902d1b39",
+  "uuid" : "e59b0bde-b6bf-3e91-805e-35c5902d1b39",
   "request" : {
-    "url" : "/search-pdc/wrint/5",
+    "url" : "/search-pdc/wrint,freakshow",
     "method" : "GET"
   },
   "response" : {
     "status" : 200,
-    "bodyFileName" : "body-wrint-5-kPnot.txt",
+    "bodyFileName" : "body-search-pdc-wrint_freakshow-JqFv8.txt",
     "headers" : {
-      "Date" : "Sun, 23 Oct 2016 19:40:43 GMT",
+      "Date" : "Wed, 07 Dec 2016 17:40:59 GMT",
       "Server" : "Apache/2.4.10 (Debian)",
+      "Strict-Transport-Security" : "max-age=31536000; includeSubDomains",
       "X-Content-Type-Options" : "nosniff",
       "X-Frame-Options" : "SAMEORIGIN",
       "X-Powered-By" : "Fat-Free Framework",
       "X-XSS-Protection" : "1; mode=block",
       "Cache-Control" : "no-cache, no-store, must-revalidate, max-age=1209600",
       "Vary" : "Accept-Encoding,User-Agent",
-      "Expires" : "Sun, 06 Nov 2016 19:40:43 GMT",
-      "Keep-Alive" : "timeout=5, max=99",
+      "Expires" : "Wed, 21 Dec 2016 17:40:59 GMT",
+      "Keep-Alive" : "timeout=5, max=98",
       "Connection" : "Keep-Alive",
       "Content-Type" : "text/html; charset=UTF-8"
     }

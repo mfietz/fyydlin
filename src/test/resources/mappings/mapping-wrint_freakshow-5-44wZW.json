@@ -1,23 +1,24 @@
 {
-  "id" : "a1693e20-a016-39ed-9bc0-4b878b18f060",
-  "uuid" : "a1693e20-a016-39ed-9bc0-4b878b18f060",
+  "id" : "d4395e6f-6734-3c3c-844f-7fc992329dbf",
+  "uuid" : "d4395e6f-6734-3c3c-844f-7fc992329dbf",
   "request" : {
     "url" : "/search-pdc/wrint,freakshow/5",
     "method" : "GET"
   },
   "response" : {
     "status" : 200,
-    "bodyFileName" : "body-wrint_freakshow-5-31rPg.txt",
+    "bodyFileName" : "body-wrint_freakshow-5-44wZW.txt",
     "headers" : {
-      "Date" : "Sun, 23 Oct 2016 19:40:44 GMT",
+      "Date" : "Wed, 07 Dec 2016 17:41:00 GMT",
       "Server" : "Apache/2.4.10 (Debian)",
+      "Strict-Transport-Security" : "max-age=31536000; includeSubDomains",
       "X-Content-Type-Options" : "nosniff",
       "X-Frame-Options" : "SAMEORIGIN",
       "X-Powered-By" : "Fat-Free Framework",
       "X-XSS-Protection" : "1; mode=block",
       "Cache-Control" : "no-cache, no-store, must-revalidate, max-age=1209600",
       "Vary" : "Accept-Encoding,User-Agent",
-      "Expires" : "Sun, 06 Nov 2016 19:40:44 GMT",
+      "Expires" : "Wed, 21 Dec 2016 17:41:00 GMT",
       "Keep-Alive" : "timeout=5, max=97",
       "Connection" : "Keep-Alive",
       "Content-Type" : "text/html; charset=UTF-8"

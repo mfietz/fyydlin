@@ -38,4 +38,10 @@ class FyydClientTest {
         testSubscriber.assertNoErrors()
     }
 
+    @Test
+    fun searchForPodcastsWrintAndFreakshowWithLimitAndLanguage() {
+        client.searchPodcasts("wrint", "freakshow", limit = 5, language = "de").subscribe(testSubscriber)
+        testSubscriber.assertNoErrors()
+    }
+
 }

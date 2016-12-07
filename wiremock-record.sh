@@ -13,6 +13,7 @@ curl "http://localhost:8080/search-pdc/wrint"
 curl "http://localhost:8080/search-pdc/wrint/5"
 curl "http://localhost:8080/search-pdc/wrint,freakshow"
 curl "http://localhost:8080/search-pdc/wrint,freakshow/5"
+curl -H "Accept-Language: de" "http://localhost:8080/search-pdc/wrint,freakshow/5"
 
 kill $!
 
