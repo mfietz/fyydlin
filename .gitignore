@@ -4,6 +4,7 @@ build/
 
 # IntelliJ
 .idea/
+*.iml
 
 # macOS
 .DS_Store
