@@ -1,19 +1,16 @@
 #!/bin/sh
 
-if [[ ! -f wiremock-standalone-2.2.2.jar ]] ; then
-    echo wiremock-standalone-2.2.2.jar does not exist!
+if [[ ! -f wiremock-standalone-2.19.0.jar ]] ; then
+    echo wiremock-standalone-2.19.0.jar does not exist!
     exit
 fi
 
-java -jar wiremock-standalone-2.2.2.jar --proxy-all="https://api.fyyd.de" --record-mappings --verbose &
+java -jar wiremock-standalone-2.19.0.jar --proxy-all="https://api.fyyd.de/0.2/" --record-mappings --verbose &
 
 sleep 5
 
-curl "http://localhost:8080/search-pdc/wrint"
-curl "http://localhost:8080/search-pdc/wrint/5"
-curl "http://localhost:8080/search-pdc/wrint,freakshow"
-curl "http://localhost:8080/search-pdc/wrint,freakshow/5"
-curl -H "Accept-Language: de" "http://localhost:8080/search-pdc/wrint,freakshow/5"
+curl "http://localhost:8080/search/podcast?title=wrint"
+curl "http://localhost:8080/search/podcast?title=wrint&count=5"
 
 kill $!
 

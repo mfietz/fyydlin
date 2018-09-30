@@ -1,0 +1,28 @@
+{
+  "id" : "55132bbc-df49-3f2a-9870-70006e8cc99c",
+  "request" : {
+    "url" : "/search/podcast?title=wrint",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-search-podcast-Nb1DL.json",
+    "headers" : {
+      "Date" : "Sun, 30 Sep 2018 15:56:07 GMT",
+      "Server" : "Apache/2.4.25 (Debian)",
+      "X-Powered-By" : "Fat-Free Framework",
+      "X-Frame-Options" : "SAMEORIGIN",
+      "X-XSS-Protection" : "1; mode=block",
+      "X-Content-Type-Options" : "nosniff",
+      "Pragma" : "no-cache",
+      "Cache-Control" : "no-cache, no-store, must-revalidate",
+      "Expires" : "Thu, 01 Jan 1970 00:00:00 +0000",
+      "Vary" : "Accept-Encoding,User-Agent",
+      "Keep-Alive" : "timeout=5, max=100",
+      "Connection" : "Keep-Alive",
+      "Transfer-Encoding" : "chunked",
+      "Content-Type" : "application/json; charset=UTF-8"
+    }
+  },
+  "uuid" : "55132bbc-df49-3f2a-9870-70006e8cc99c"
+}

@@ -26,22 +26,4 @@ class FyydClientTest {
         testSubscriber.assertNoErrors()
     }
 
-    @Test
-    fun searchForPodcastsWrintAndFreakshow() {
-        client.searchPodcasts("wrint", "freakshow").subscribe(testSubscriber)
-        testSubscriber.assertNoErrors()
-    }
-
-    @Test
-    fun searchForPodcastsWrintAndFreakshowWithLimit() {
-        client.searchPodcasts("wrint", "freakshow", limit = 5).subscribe(testSubscriber)
-        testSubscriber.assertNoErrors()
-    }
-
-    @Test
-    fun searchForPodcastsWrintAndFreakshowWithLimitAndLanguage() {
-        client.searchPodcasts("wrint", "freakshow", limit = 5, language = "de").subscribe(testSubscriber)
-        testSubscriber.assertNoErrors()
-    }
-
 }

@@ -16,7 +16,7 @@ class FyydClient @JvmOverloads constructor(
 
     companion object FyydClientDefaults {
         private val defaultClient by lazy { OkHttpClient() }
-        private val defaultBaseUrl = "https://api.fyyd.de"
+        private val defaultBaseUrl = "https://api.fyyd.de/0.2/"
     }
 
     constructor(baseUrl: String) : this(client = defaultClient, baseUrl = baseUrl)
@@ -36,12 +36,8 @@ class FyydClient @JvmOverloads constructor(
         service = retrofit.create(FyydService::class.java)
     }
 
-    fun searchPodcasts(vararg query: String): Single<FyydResponse> {
-        return service.searchPodcasts(query.joinToString(separator = ","))
-    }
-
-    fun searchPodcasts(vararg query: String, limit: Int, language: String? = null): Single<FyydResponse> {
-        return service.searchPodcasts(query.joinToString(separator = ","), limit, language)
+    fun searchPodcasts(title: String, limit: Int? = null): Single<FyydResponse> {
+        return service.searchPodcasts(title, limit)
     }
 
 }
