@@ -33,7 +33,3 @@ dependencies {
     testRuntime "org.junit.jupiter:junit-jupiter-engine:$junit_version"
     testImplementation "com.github.tomakehurst:wiremock:$wiremock_version"
 }
-
-task wrapper(type: Wrapper) {
-    gradleVersion = '4.7'
-}
