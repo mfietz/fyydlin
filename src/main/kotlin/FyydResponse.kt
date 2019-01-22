@@ -13,9 +13,9 @@ data class FyydResponse(
 data class SearchHit(
         val title: String,
         val id: Int,
-        @Json(name = "xmlURL") val xmlUrl: String,
-        @Json(name = "htmlURL")val htmlUrl: String,
-        @Json(name = "imgURL") val imageUrl: String,
+        @field:Json(name = "xmlURL") val xmlUrl: String,
+        @field:Json(name = "htmlURL")val htmlUrl: String,
+        @field:Json(name = "imgURL") val imageUrl: String,
         val status: Int,
         val slug: String,
         val layoutImageUrl: String,
@@ -26,30 +26,30 @@ data class SearchHit(
         val lastpoll: String,
         val generator: String,
         val categories: IntArray,
-        @Json(name = "lastpub") val lastPubDate: Date,
+        @field:Json(name = "lastpub") val lastPubDate: Date,
         val rank: Int,
-        @Json(name = "url_fyyd") val urlFyyd: String,
+        @field:Json(name = "url_fyyd") val urlFyyd: String,
         val description: String,
         val subtitle: String,
-        @Json(name = "count_episodes") val countEpisodes: Int
+        @field:Json(name = "count_episodes") val countEpisodes: Int
 )
 
 data class MetaData(
         val paging: Paging,
-        @Json(name = "API_INFO") val apiInfo: ApiInfo,
-        @Json(name = "SERVER") val server: String,
+        @field:Json(name = "API_INFO") val apiInfo: ApiInfo,
+        @field:Json(name = "SERVER") val server: String,
         val duration: Int
 )
 
 data class Paging(
         val count: Int,
         val page: Int,
-        @Json(name = "first_page") val firstPage: Int,
-        @Json(name = "last_page") val lastPage: Int,
-        @Json(name = "next_page") val nextPage: Int?,
-        @Json(name = "prev_page") val prevPage: Int?
+        @field:Json(name = "first_page") val firstPage: Int,
+        @field:Json(name = "last_page") val lastPage: Int,
+        @field:Json(name = "next_page") val nextPage: Int?,
+        @field:Json(name = "prev_page") val prevPage: Int?
 )
 
 data class ApiInfo(
-        @Json(name = "API_VERSION") val apiVersion: Double
+        @field:Json(name = "API_VERSION") val apiVersion: Double
 )

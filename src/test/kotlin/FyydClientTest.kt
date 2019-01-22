@@ -23,7 +23,7 @@ class FyydClientTest {
 
         val hit = fyydResponse!!.data[0]
         assertEquals("WRINT: Wer redet ist nicht tot", hit.title)
-        assertEquals("https:\\/\\/www.wrint.de\\/feed\\/podcast", hit.xmlUrl)
+        assertEquals("https://www.wrint.de/feed/podcast", hit.xmlUrl)
     }
 
     @Test
