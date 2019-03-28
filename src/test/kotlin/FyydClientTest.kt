@@ -1,6 +1,9 @@
 
 import com.github.tomakehurst.wiremock.junit.WireMockRule
 import de.mfietz.fyydlin.FyydClient
+import de.mfietz.fyydlin.FyydResponse
+import org.awaitility.Awaitility
+import org.junit.Assert.assertEquals
 import org.junit.Rule
 import org.junit.Test
 
@@ -13,8 +16,14 @@ class FyydClientTest {
 
     @Test
     fun searchForPodcastWrint() {
-        val observer = client.searchPodcasts("wrint").test()
-        observer.assertNoErrors()
+        var fyydResponse: FyydResponse? = null
+        client.searchPodcasts("wrint")
+        .subscribe { resp -> fyydResponse = resp}
+        Awaitility.await().until { fyydResponse != null }
+
+        val hit = fyydResponse!!.data[0]
+        assertEquals("WRINT: Wer redet ist nicht tot", hit.title)
+        assertEquals("https://www.wrint.de/feed/podcast", hit.xmlUrl)
     }
 
     @Test
