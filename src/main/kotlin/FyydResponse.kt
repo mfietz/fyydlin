@@ -31,6 +31,7 @@ data class SearchHit(
         @field:Json(name = "url_fyyd") val urlFyyd: String,
         val description: String,
         val subtitle: String,
+        val author: String,
         @field:Json(name = "count_episodes") val countEpisodes: Int
 )
 
