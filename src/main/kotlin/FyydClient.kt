@@ -36,8 +36,8 @@ class FyydClient @JvmOverloads constructor(
         service = retrofit.create(FyydService::class.java)
     }
 
-    fun searchPodcasts(title: String, limit: Int? = null): Single<FyydResponse> {
-        return service.searchPodcasts(title, limit)
+    fun searchPodcasts(term: String, limit: Int? = null): Single<FyydResponse> {
+        return service.searchPodcasts(term, limit)
     }
 
 }
