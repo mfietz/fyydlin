@@ -1,13 +1,13 @@
 package de.mfietz.fyydlin
 
 import com.squareup.moshi.Moshi
-import com.squareup.moshi.Rfc3339DateJsonAdapter
-import io.reactivex.Single
+import com.squareup.moshi.adapters.Rfc3339DateJsonAdapter
+import io.reactivex.rxjava3.core.Single
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
-import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory
+import retrofit2.adapter.rxjava3.RxJava3CallAdapterFactory
 import retrofit2.converter.moshi.MoshiConverterFactory
-import java.util.*
+import java.util.Date
 
 class FyydClient @JvmOverloads constructor(
     client: OkHttpClient = defaultClient,
@@ -30,7 +30,7 @@ class FyydClient @JvmOverloads constructor(
         val retrofit = Retrofit.Builder()
             .baseUrl(baseUrl)
             .client(client)
-            .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
+            .addCallAdapterFactory(RxJava3CallAdapterFactory.create())
             .addConverterFactory(MoshiConverterFactory.create(moshi))
             .build()
         service = retrofit.create(FyydService::class.java)

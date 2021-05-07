@@ -1,7 +1,7 @@
 {
   "id" : "55132bbc-df49-3f2a-9870-70006e8cc99c",
   "request" : {
-    "url" : "/search/podcast?title=wrint",
+    "url" : "/search/podcast?term=wrint",
     "method" : "GET"
   },
   "response" : {
